@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     /* margin:15px; */
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
 }
 .heading{
     margin-top: 2em;
@@ -114,7 +114,7 @@ figure{
        /* max-height: 600px; */
        height:auto;
        /* font-size: 1.5rem; */
-       border:2px solid green;
+       /* border:2px solid green; */
        gap:20px;
        width:100%;
        padding-top:7em ;
