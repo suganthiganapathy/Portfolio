@@ -1,18 +1,32 @@
 .container{
     width: 100%;
-    background-color: cadetblue;
+    background-color:#8e9eab;
     height:80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    border-bottom:2.5px solid rgb(218, 141, 46);
 }
-
+/* .logo{
+    height:50px;
+    width:50px;
+    /* padding:5px; 
+} */
 .navlinks{
     display: flex;
     justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
-.navlinks li{
+ .navlinks li{
     list-style: none;
     margin-right: 1em;
+    /* display:none; */
+}
+nav ul li:hover {
+    background-color:rgb(174, 167, 168);
+    padding:.5em .8em ;
+    border:none;
+    border-radius: 13px;
 }

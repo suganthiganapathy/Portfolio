@@ -11,6 +11,7 @@ function AboutPage() {
   return (
     <section className="aboutContainer" id="aboutpage">
       <div className="intro">
+        {/* <h3> ABOUT ME</h3> */}
       <p>
         I am 34 years old, studying frontend development in order to get IT
         releated Job. I like coding which is a creative work and it gives life
