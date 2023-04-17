@@ -1,0 +1,25 @@
+.container{
+    position:fixed;
+    height:45px;
+    width:100%;
+    bottom:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.container a{
+    color:black;
+}
+
+.footer{
+    font-size: 30px;
+}
+
+@media (min-width:320px) {
+    .container{
+        padding:20px;
+    }
+}
