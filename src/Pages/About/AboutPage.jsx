@@ -27,8 +27,8 @@ function AboutPage() {
           <span>
             Please feel free to download my CV by 
             <a
-              href="https://docs.google.com/document/d/15U7GvuUIwCfkIG1A0AqZoNxoaeG_rI73/edit"
-              className="download"
+              href="https://drive.google.com/drive/u/1/my-drive"
+              className="download" target="_blank"
             >clicking here
              </a>
           </span>
