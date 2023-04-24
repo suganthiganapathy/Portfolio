@@ -14,7 +14,7 @@ function AboutPage() {
       <div className="intro">
         <h3 className="about"> ABOUT ME</h3>
         <p>
-          I am a passionate individual who is 34 years old and currently
+          I am a passionate individual, 34 years old and currently
           studying frontend development with the goal of obtaining a job in the
           IT industry. I find coding to be a creative outlet that brings my
           ideas to life, and I thoroughly enjoy the process. <br/>In my free time, I
