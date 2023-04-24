@@ -15,7 +15,7 @@ function ProjectsPage() {
           </div>
           <div className="overlaycontent">
             <h3>Parallax</h3>
-            <h5>HTML & CSS</h5>
+            <h5 className="languages">HTML & CSS</h5>
             <p className="description">
               This is my first project in kodehode.Here i used a parallex effect and showed some Indian tourist places.
             </p>
@@ -31,7 +31,7 @@ function ProjectsPage() {
           </div>
           <div className="overlaycontent">
           <h3>Galaxy</h3>
-            <h5>HTML & CSS</h5>
+            <h5 className="languages">HTML & CSS</h5>
             <p className="description">
               I got this group project in the month of october.So we decided to make scary event in the galaxy. Here i used github to share the contact page which i created with the group members.
                           </p>
@@ -47,9 +47,9 @@ function ProjectsPage() {
           </div>
           <div className="overlaycontent">
           <h3>DRUMKIT</h3>
-            <h5>HTML, CSS &JS</h5>
+            <h5 className="languages">HTML, CSS & JS</h5>
             <p className="description">
-              This is my one of the javascript project. Here i made a keyboard event. And click event listner to play the music.                          </p>
+              This is one of my javascript project. Here i made a keyboard event. And click event listner to play the music.                          </p>
               <a href="https://github.com/suganthiganapathy/drumkit" className="weblinks" target="_blank">Github</a>
               <a href="https://eloquent-pothos-6e22fe.netlify.app/" className="weblinks" target="_blank">weblink</a>
           </div>
@@ -61,17 +61,14 @@ function ProjectsPage() {
             <img src={xmas} alt="cardimage" className="cardImage"></img>
           </div>
           <div className="overlaycontent">
-            <h1>DRUMKIT</h1>
+            <h1>Chiratmas Wish</h1>
+            <h5 className="languages">HTML, CSS & JS</h5>
             <p className="description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit,
-              consequatur. Quis ullam excepturi aliquid saepe voluptatem!
-              Aspernatur aut porro earum.
-            </p>
+                 This Project has been done during christmas. In this project i have used localstorage to store the data.</p>
             <a href="https://github.com/suganthiganapathy/christmasProject" className="weblinks" target="_blank">Github</a>
             <a href="https://lovely-meringue-80e476.netlify.app" className="weblinks" target="_blank">Weblink</a>
           </div>
         </div>
-        
       </div>
     </section>
   );

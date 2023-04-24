@@ -7,9 +7,9 @@
 }  */
 .sectionOne{
     /* height: 100vh; */
-    width:100%;
+    /* width:100%; */
     /* width:auto; */
-    max-width: 1200px;
+    /* max-width: 1200px; */
     min-height: 100vh;
 
     /* height:600px; */
@@ -17,11 +17,12 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center; 
-    position: absolute;
+    /* position: absolute;
     top:50%;
     left:50%;
+        transform: translate(-50%,-50%); */
     z-index: -2; 
-    transform: translate(-50%,-50%);
+
     padding-top:8em;
     /* margin-bottom: 2em; */
     /* border: 2px solid green; */

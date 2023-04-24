@@ -10,59 +10,62 @@ import github from "../Images/github.png";
 function AboutPage() {
   return (
     <section className="aboutContainer" id="aboutpage">
+      {/* <h2 className="about"> ABOUT ME</h2> */}
       <div className="intro">
-        {/* <h3> ABOUT ME</h3> */}
-      <p>
-        I am 34 years old, studying frontend development in order to get IT
-        releated Job. I like coding which is a creative work and it gives life
-        to my ideas.
-        <br />
-        In my spare time, I work as a frivillig to teach my mother tounge to the
-        kids.
-        <br />
-        My dream is to become a fullstack developer where I can participate in
-        large groups which help to grow my learning skills. I always like to do
-        new things.<br/> Click here to download my
-        <a
-          href="https://docs.google.com/document/d/15U7GvuUIwCfkIG1A0AqZoNxoaeG_rI73/edit"
-          className="download"
-        >
-          CV
-        </a>
-      </p>
-      <p className="heading">KNOWN SKILLS</p>
-      <div className="skills">
-        {/* <p>SKILLS</p> */}
-      <div className="tooltip">
-      <img src={html} className="icons"></img>
-      <span className="tooltiptxt">HTML</span>
+        <h3 className="about"> ABOUT ME</h3>
+        <p>
+          I am a passionate individual who is 34 years old and currently
+          studying frontend development with the goal of obtaining a job in the
+          IT industry. I find coding to be a creative outlet that brings my
+          ideas to life, and I thoroughly enjoy the process. <br/>In my free time, I
+          volunteer as a teacher to help kids learn my mother tongue. It's
+          fulfilling to share my knowledge and contribute to the community in
+          this way.<br/> My dream is to become a full-stack developer, as I thrive in
+          collaborative environments and enjoy being part of a larger team. I am
+          always eager to learn and try new things, and I believe that
+          continuous growth is key to personal and professional development.
+          <span>
+            Please feel free to download my CV by 
+            <a
+              href="https://docs.google.com/document/d/15U7GvuUIwCfkIG1A0AqZoNxoaeG_rI73/edit"
+              className="download"
+            >clicking here
+             </a>
+          </span>
+        </p>
+        <p className="heading">SKILLS</p>
+        <div className="skills">
+          {/* <p>SKILLS</p> */}
+          <div className="tooltip">
+            <img src={html} className="icons"></img>
+            <span className="tooltiptxt">HTML</span>
+          </div>
+          <div className="tooltip">
+            <img src={css} className="icons"></img>
+            <span className="tooltiptxt">CSS</span>
+          </div>
+          <div className="tooltip">
+            <img src={js} className="icons"></img>
+            <span className="tooltiptxt">JAVASCRIPT</span>
+          </div>
+          <div className="tooltip">
+            <img src={react} className="icons"></img>
+            <span className="tooltiptxt">REACT</span>
+          </div>
+          <div className="tooltip">
+            <img src={sql} className="icons"></img>
+            <span className="tooltiptxt">SQL</span>
+          </div>
+          <div className="tooltip">
+            <img src={github} className="icons"></img>
+            <span className="tooltiptxt">GITHUB</span>
+          </div>
+          <div className="tooltip">
+            <img src={figma} className="icons"></img>
+            <span className="tooltiptxt">FIGMA</span>
+          </div>
+        </div>{" "}
       </div>
-      <div className="tooltip">
-      <img src={css} className="icons"></img>
-      <span className="tooltiptxt">CSS</span>
-      </div>
-      <div className="tooltip">
-      <img src={js} className="icons"></img>
-      <span className="tooltiptxt">JAVASCRIPT</span>
-      </div>
-      <div className="tooltip">
-      <img src={react} className="icons"></img>
-      <span className="tooltiptxt">REACT</span>
-      </div>
-      <div className="tooltip">
-      <img src={sql} className="icons"></img>
-      <span className="tooltiptxt">SQL</span>
-      </div>
-      <div className="tooltip">
-      <img src={github} className="icons"></img>
-      <span className="tooltiptxt">GITHUB</span>
-      </div>
-      <div className="tooltip">
-      <img src={figma} className="icons"></img>
-      <span className="tooltiptxt">FIGMA</span>
-      </div>
-
-      </div>       </div>
     </section>
   );
 }

@@ -1,13 +1,14 @@
 import React from "react";
 import nav from "./navbar.module.css"
+import Logo from "../Images/logoicon.png"
 import {Link} from "react-scroll"
 function Navbar(){
     return(
         
         <div className={nav.container}>
-        <h1 className={nav.logo}>SUGI</h1>
+        {/* <h1 className={nav.logo}>SUGI</h1> */}
 
-        {/* <img src={Logo} className={nav.logo}/> */}
+        <img src={Logo} className={nav.logo}/>
 
         
         <nav>
