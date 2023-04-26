@@ -24,14 +24,14 @@ function AboutPage() {
           collaborative environments and enjoy being part of a larger team. I am
           always eager to learn and try new things, and I believe that
           continuous growth is key to personal and professional development.
-          {/* <span>
+          <span>
             Please feel free to download my CV by 
             <a
-              href="https://drive.google.com/drive/u/1/my-drive"
+              href="https://drive.google.com/file/d/1p4nF5j33rgGs7pFsvQZmwL46YpcJT8sD/view?usp=sharing"
               className="download" target="_blank"
             >clicking here
              </a>
-          </span> */}
+          </span>
         </p>
         <p className="heading">SKILLS</p>
         <div className="skills">
