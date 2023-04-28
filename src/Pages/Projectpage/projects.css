@@ -6,8 +6,10 @@
     justify-content: center;
     align-items: center;
     gap:50px;
-    /* z-index: -2; */
+    
     padding-top: 10em;
+    position:relative;
+    z-index: -2;
   }
     .projectCard {
     width: 280px;

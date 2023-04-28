@@ -57,6 +57,9 @@
         /* margin:0 auto; */
      
     }
+    .greetings{
+        margin-left:.6em ;
+    }
      .firstname{
         font-size: 5rem;
         margin-left:.3em ;

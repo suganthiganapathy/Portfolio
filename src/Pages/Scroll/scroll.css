@@ -9,12 +9,12 @@
     margin-right:1em;
   }
   .icon-style{
-    background-color: black;
+    /* background-color: black;
     border: 2px solid #fff;
-    border-radius: 50%;
+    border-radius: 50%; */
     height: 35px;
     width: 35px;
-    color: #fff;
+    color: black;
     cursor: pointer;
     animation: movebtn 3s ease-in-out infinite;
     transition: all .5s ease-in-out;

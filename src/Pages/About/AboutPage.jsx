@@ -25,7 +25,7 @@ function AboutPage() {
           always eager to learn and try new things, and I believe that
           continuous growth is key to personal and professional development.
           <span>
-            Please feel free to download my CV by 
+           <br/> Please feel free to download my CV by 
             <a
               href="https://drive.google.com/file/d/1p4nF5j33rgGs7pFsvQZmwL46YpcJT8sD/view?usp=sharing"
               className="download" target="_blank"

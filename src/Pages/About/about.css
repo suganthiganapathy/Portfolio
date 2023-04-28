@@ -32,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:1.5em;
+    padding:5em 1.5em;
     /* margin:15px; */
     /* border: 2px solid gold; */
 }
@@ -96,6 +96,13 @@ figure{
 }
 .download{
     margin-left: .3em;
+    /* text-decoration: dotted; */
+    text-transform: uppercase;
+    color:black;
+    /* background-color: bisque; */
+    padding:5px 8px;
+
+    font-size: 1.3rem;
 }
 
 /* @media (min-width:320px) and (max-width:600px) {
