@@ -7,6 +7,7 @@ import react from "../Images/react.png";
 import figma from "../Images/figma.png";
 import sql from "../Images/sql.png";
 import github from "../Images/github.png";
+import nodejs from "../Images/nodejs.png";
 function AboutPage() {
   return (
     <section className="aboutContainer" id="aboutpage">
@@ -50,11 +51,15 @@ function AboutPage() {
           </div>
           <div className="tooltip">
             <img src={react} className="icons"></img>
-            <span className="tooltiptxt">REACT</span>
+            <span className="tooltiptxt">REACTJS</span>
           </div>
           <div className="tooltip">
             <img src={sql} className="icons"></img>
             <span className="tooltiptxt">SQL</span>
+          </div>
+          <div className="tooltip">
+            <img src={nodejs} className="icons"></img>
+            <span className="tooltiptxt">NODEJS</span>
           </div>
           <div className="tooltip">
             <img src={github} className="icons"></img>

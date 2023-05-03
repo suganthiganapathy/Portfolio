@@ -9,6 +9,7 @@ import HomePage from "./Pages/Home/Homepage"
   //import Projects from "./Pages/Projectpage/Projectpage"
   import ScrollToTop from "./Pages/Scroll/scroolTop"
   //import ScrollToTop from "react-scroll-to-top";
+  import './index.css'
   
 import "./App.css"
 function App() {
