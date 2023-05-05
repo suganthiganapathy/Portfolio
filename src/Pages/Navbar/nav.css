@@ -45,25 +45,27 @@ li :hover{
 
 @media (max-width: 600px) {
   .navbar {
-    transition: 0.5s all ease-in-out;
+    transition: 0.8s all ease-in-out;
     /* width: 100%; */
     position: fixed;
   }
   .navbar.expanded {
-    height: 45vh;
+    height: 50vh;
+    
     /* width:100%; */
     /* width: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.1s all ease-in-out; */
-    right:0;
+    /* left:0; */
   }
   .navbar.expanded .navitems {
-    position: absolute;
-    top: 70px;
-    left:50%;
+    position: relative;
+    top: 20px;
+    left:35%;
     right:50%;
+
     /* width:100%; */
     display: flex;
     flex-direction: column;
@@ -81,6 +83,7 @@ li :hover{
     position: absolute;
     top: 23px;
     left: 20px;
+    padding-bottom: 5px;
   }
 
   .navbar .toggle-icon {

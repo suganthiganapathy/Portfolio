@@ -7,7 +7,9 @@ import Xmas from "../Images/christmas.png";
 
 function ProjectsPage() {
   return (
-    <div className="projectContainer" id="projectspage">
+    <div className="mainContainer" id="projectspage">
+    <h1 className="project_title">Projects</h1>
+    <div className="projectContainer">
 
       {/* <h1 className="mainTitle">Projects</h1> */}
       <div className="projectCard">
@@ -140,6 +142,8 @@ function ProjectsPage() {
         <h2 className="protitle">Chiratmas Wish</h2>
       </div>
     </div>
+    </div>
+
   );
 }
 

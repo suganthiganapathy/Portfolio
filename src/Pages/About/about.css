@@ -15,11 +15,12 @@
     /* gap:20px;   */
     /* padding-top: 8em ; */
     /* padding-left: 1em; */
-    z-index: -2;  
+    /* z-index: -2;   */
     /* margin:.2em; */
     /* margin-top: 7em; */
     overflow: hidden;
 }
+
 
 .loadCv,.about{
     padding:2em 0;
@@ -32,9 +33,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:5em 1.5em;
+    padding:2.8em;
+    margin-top: 3em;
     /* margin:15px; */
     /* border: 2px solid gold; */
+    text-align: justify;
 }
 .heading{
     margin-top: 2em;
@@ -42,44 +45,62 @@
 }
 .skills{
     padding:30px;
-    position: relative;
-    z-index: -2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width:100%;
     gap:2em;
+    z-index: -2;
     /* width:auto; */
     /* max-width: 1200px; */
     
 }
-.tooltip{
+.download{
+    text-transform: uppercase;
+    color:black;
+}
+/* .tooltip{
     position: relative;
     display: inline-block;
 }
 .tooltip .tooltiptxt{
-    visibility: hidden;
+display: none;
   width: auto;
   background-color: whitesmoke;
   color: darkslategray;
   text-align: center;
   border-radius: 6px;
   padding: 5px 5px;
-
+ */
   /* Position the tooltip */
-  position: absolute;
+  /* position: absolute;
   top:100%;
   left:50%;
   margin-left:-60px;
-  z-index: 1;
+  /* z-index: 1; */
 
+/*}
+.tooltip:hover .tooltiptxt{
+display: block;
 }
-
-.tooltip:hover .tooltiptxt {
+ */
+/* .tooltip:hover .tooltiptxt {
     visibility: visible;
-    }
-  
+    } */
+  .skills_icon_img{
+    height:50px;
+    width:50px;
+  }
+  .skills_icon_img1{
+    margin-left: .8em;
+    height:50px;
+    width:50px;
+
+  }
+.text{
+    text-align: center;
+}
 figure{
     display:flex;
     flex-direction:column;
@@ -98,13 +119,6 @@ figure{
 }
 .download{
     margin-left: .3em;
-    /* text-decoration: dotted; */
-    text-transform: uppercase;
-    color:black;
-    /* background-color: bisque; */
-    padding:5px 8px;
-
-    font-size: 1.3rem;
 }
 
 /* @media (min-width:320px) and (max-width:600px) {

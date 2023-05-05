@@ -1,15 +1,24 @@
+.mainContainer{
+  min-height: 100vh;
+  position:relative;
+  z-index: -2;
+  text-align: center;
+  padding-top: 10em;
+  /* margin-bottom: 3em; */
+}
+.project_title{
+  margin-bottom: 2em;
+}
 .projectContainer {
-    min-height: 100vh;
+  
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     gap:50px;
-
-    padding-top: 10em;
-    position:relative;
-    z-index: -2;
+    
+   
   }
     .projectCard {
     width: 280px;
@@ -20,6 +29,7 @@
     /*padding-top: 30px;*/
     box-shadow:0  0 2px  1px  gray;
     border-radius: 20px;
+    margin-bottom: 2em;
     
   }
   
@@ -68,7 +78,8 @@
   
 .protitle{
  margin-top: 2px;
-    
+  text-align: center;
+  padding-bottom: 2em;
 }
 .languages{
 margin-bottom: 5px;

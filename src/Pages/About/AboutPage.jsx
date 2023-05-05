@@ -6,29 +6,29 @@ import js from "../Images/js.png";
 import react from "../Images/react.png";
 import figma from "../Images/figma.png";
 import sql from "../Images/sql.png";
-import github from "../Images/github.png";
 import nodejs from "../Images/nodejs.png";
+import github from "../Images/github.png";
 function AboutPage() {
   return (
     <section className="aboutContainer" id="aboutpage">
       {/* <h2 className="about"> ABOUT ME</h2> */}
       <div className="intro">
         <h3 className="about"> ABOUT ME</h3>
-        <p>
-          I am a passionate individual, 34 years old and currently
+        <p className="about-content">
+          I am a passionate individual who is 34 years old and currently
           studying frontend development with the goal of obtaining a job in the
           IT industry. I find coding to be a creative outlet that brings my
-          ideas to life, and I thoroughly enjoy the process. <br/>In my free time, I
+          ideas to life, and I thoroughly enjoy the process. <br/><br/>In my free time, I
           volunteer as a teacher to help kids learn my mother tongue. It's
           fulfilling to share my knowledge and contribute to the community in
-          this way.<br/> My dream is to become a full-stack developer, as I thrive in
+          this way.<br/><br/> My dream is to become a full-stack developer, as I thrive in
           collaborative environments and enjoy being part of a larger team. I am
           always eager to learn and try new things, and I believe that
           continuous growth is key to personal and professional development.
           <span>
-           <br/> Please feel free to download my CV by 
+            Please feel free to download my CV by 
             <a
-              href="https://drive.google.com/file/d/1p4nF5j33rgGs7pFsvQZmwL46YpcJT8sD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EFWcqkwkGJ2HNjvtkUe_y5qFC-b0SfW4/view?usp=share_link"
               className="download" target="_blank"
             >clicking here
              </a>
@@ -37,7 +37,7 @@ function AboutPage() {
         <p className="heading">SKILLS</p>
         <div className="skills">
           {/* <p>SKILLS</p> */}
-          <div className="tooltip">
+          {/* <div className="tooltip">
             <img src={html} className="icons"></img>
             <span className="tooltiptxt">HTML</span>
           </div>
@@ -68,8 +68,42 @@ function AboutPage() {
           <div className="tooltip">
             <img src={figma} className="icons"></img>
             <span className="tooltiptxt">FIGMA</span>
+          </div> */}
+          <div className="skills_icon">
+            <img src={html} className="skills_icon_img"></img>
+            <p className="text">Html5</p>
           </div>
-        </div>{" "}
+          <div className="skills_icon">
+            <img src={css} className="skills_icon_img"></img>
+            <p className="text">Css</p>
+          </div>
+          <div className="skills_icon">
+            <img src={js} className="skills_icon_img1"></img>
+            <p className="text">Javascript</p>
+          </div>
+          <div className="skills_icon">
+            <img src={react} className="skills_icon_img"></img>
+            <p className="text">React</p>
+          </div>
+          <div className="skills_icon">
+            <img src={sql} className="skills_icon_img"></img>
+            <p className="text">Sql</p>
+          </div>
+          <div className="skills_icon">
+            <img src={nodejs} className="skills_icon_img"></img>
+            <p className="text">Nodejs</p>
+          </div>
+
+          <div className="skills_icon">
+            <img src={figma} className="skills_icon_img"></img>
+            <p className="text">Figma</p>
+          </div>
+          <div className="skills_icon">
+            <img src={github} className="skills_icon_img"></img>
+            <p className="text">Github</p>
+          </div>
+
+                  </div>
       </div>
     </section>
   );
