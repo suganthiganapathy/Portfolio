@@ -139,7 +139,7 @@ function ProjectsPage() {
             </div>
           </div>
         </div>
-        <h2 className="protitle">Chiratmas Wish</h2>
+        <h2 className="protitle">Christmas Wish</h2>
       </div>
     </div>
     </div>
