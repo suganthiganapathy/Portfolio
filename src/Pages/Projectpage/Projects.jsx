@@ -12,7 +12,7 @@ function ProjectsPage() {
     <div className="projectContainer">
 
       {/* <h1 className="mainTitle">Projects</h1> */}
-      <div className="projectCard">
+      {/* <div className="projectCard">
         <div className="imgBox">
           <img src={Parallax} alt="projectimage" className="image"></img>
         </div>
@@ -42,7 +42,7 @@ function ProjectsPage() {
           </div>
         </div>
         <h2 className="protitle">Parallax</h2>
-      </div>
+      </div> */}
 
       <div className="projectCard">
         <div className="imgBox">
@@ -108,6 +108,37 @@ function ProjectsPage() {
         </div>
         <h2 className="protitle">Drumkit</h2>
       </div>
+
+      <div className="projectCard">
+        <div className="imgBox">
+          <img src={Parallax} alt="projectimage" className="image"></img>
+        </div>
+        <div className="title">
+          <h3 className="projectTitle">FireBase</h3>
+          <h5 className="languages">HTML CSS & JS</h5>
+          <p className="description">
+            This is my self project. Here I used firebase console to store the input data from the form element. And I fetched the data from the firebase and displayed in the webpage </p>
+
+          <div className="links">
+            <a
+              href="https://github.com/suganthiganapathy/Firebase-scrimba-soloproject"
+              className="weblinks"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://suganthiganapathy.github.io/Firebase-scrimba-soloproject/"
+              className="weblinks"
+              target="_blank"
+            >
+              Webpage
+            </a>
+          </div>
+        </div>
+        <h2 className="protitle">Firebase-Console</h2>
+      </div>
+
 
       <div className="projectCard">
         <div className="imgBox">
